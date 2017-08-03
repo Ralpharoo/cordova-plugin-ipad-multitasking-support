@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ipad-multitasking" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iPad Multitasking support</name>
+    <author>Ralpharoo</author>
+    <description>Cordova / PhoneGap Plugin to enable Split Screen / Multitasking on iOS</description>
+    <keywords>cordova, ios, orientation, fullscreen, story, board, storyboard</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
+            <array>
+                <string>UIInterfaceOrientationPortrait</string>
+                <string>UIInterfaceOrientationLandscapeLeft</string>
+                <string>UIInterfaceOrientationLandscapeRight</string>
+            </array>
+        </config-file>
+        <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations~ipad">
+            <array>
+                <string>UIInterfaceOrientationPortrait</string>
+                <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                <string>UIInterfaceOrientationLandscapeLeft</string>
+                <string>UIInterfaceOrientationLandscapeRight</string>
+            </array>
+        </config-file>
+        <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
+            <string>NO</string>
+        </config-file>
+    </platform>
+</plugin>
+
