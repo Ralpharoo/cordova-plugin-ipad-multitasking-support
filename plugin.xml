@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-ipad-multitasking" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-ipad-multitasking-support" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>iPad Multitasking support</name>
     <author>Ralpharoo</author>
     <description>Cordova / PhoneGap Plugin to enable Split Screen / Multitasking on iOS</description>
