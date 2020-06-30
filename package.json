@@ -1,0 +1,20 @@
+{
+    "name": "cordova-plugin-ipad-multitasking-support",
+    "version": "0.1.1",
+    "description": "Cordova / PhoneGap Plugin to enable Split Screen / Multitasking on iOS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ralpharoo/cordova-plugin-ipad-multitasking-support.git"
+    },
+    "keywords": [],
+    "author": "Ralpharoo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Ralpharoo/cordova-plugin-ipad-multitasking-support/issues"
+    },
+    "homepage": "https://github.com/Ralpharoo/cordova-plugin-ipad-multitasking-support#readme"
+}
