@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Ralpharoo/cordova-plugin-ipad-multitasking-support.git"
+        "url": "https://github.com/Ralpharoo/cordova-plugin-ipad-multitasking-support.git"
     },
     "keywords": [],
     "author": "Ralpharoo",
